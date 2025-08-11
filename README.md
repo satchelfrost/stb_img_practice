@@ -7,5 +7,8 @@ You need stb_img_write.h to build this.
 
 ## Build and run
 ```bash
-gcc -o main main.c -lm && ./main 0 && xdg-open test_img.png
+wget https://raw.githubusercontent.com/nothings/stb/refs/heads/master/stb_image_write.h
+```
+```bash
+gcc -o main main.c -lm && ./main 0 && xdg-open checkerboard.png
 ```
